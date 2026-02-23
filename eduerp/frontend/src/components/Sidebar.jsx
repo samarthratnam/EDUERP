@@ -28,9 +28,9 @@ export const Sidebar = ({ isOpen, onClose }) => {
       ],
       teacher: [
         { icon: Bell, label: 'Announcements', path: '/teacher/announcements' },
-        { icon: Files, label: 'Assignments', path: '/teacher/assignments' },
+        { icon: Files, label: 'Assignments', path: '/teacher/create-assignment' },
         { icon: Zap, label: 'Submissions', path: '/teacher/submissions' },
-        { icon: Calendar, label: 'Attendance', path: '/teacher/attendance' },
+        { icon: Calendar, label: 'Attendance', path: '/teacher/mark-attendance' },
         { icon: BarChart3, label: 'Grades', path: '/teacher/grades' },
         { icon: Users, label: 'Students', path: '/teacher/students' },
         { icon: MessageSquare, label: 'Messages', path: '/teacher/messages' },
@@ -38,9 +38,9 @@ export const Sidebar = ({ isOpen, onClose }) => {
       ],
       admin: [
         { icon: Users, label: 'Users', path: '/admin/users' },
-        { icon: Lock, label: 'Roles & Permissions', path: '/admin/roles' },
+        { icon: Lock, label: 'Roles & Permissions', path: '/admin/roles-permissions' },
         { icon: Bell, label: 'Announcements', path: '/admin/announcements' },
-        { icon: Files, label: 'Audit Logs', path: '/admin/logs' },
+        { icon: Files, label: 'Audit Logs', path: '/admin/audit-logs' },
         { icon: Settings, label: 'Settings', path: '/admin/settings' },
         { icon: User, label: 'Profile', path: '/admin/profile' },
       ],
